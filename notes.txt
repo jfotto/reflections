@@ -1,0 +1,80 @@
+git clone {remote repository}
+git config --global color.ui auto
+git log
+git diff id1, id2
+git config ­­global user.name "Your name"
+git config ­­global user.email "youremail@domain.com"
+git config --global core.editor "vim"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+
+
+git commit ­a ­m "Commit message"
+git checkout id#
+
+git diff # # - Compare two commits, printing each line that is present in one commit but not in the other
+git clone    - Make a copy of an entire Git repository, including the history, onto your own computer.
+git checkout - Temporarily reset all files in a repository to their state at a time of a specific commit
+git log      - Show the commits made in a repsoitory, starting with the most recent.
+
+Repositories.  
+    - looks like dirs, but stores metadata on the files.  this data is in the .git file in the repository dir
+	- Initialize a repository by typing "git init".  This will create the .git file in the repository directory
+	- "git status' will show the changes since the last commit
+	- "git reset {filename}" will remove files from the staging area 
+	- "git add {filename} " moves files to the staging area. "git add ." will add all modified files
+	- "git commit -a -m "{message}"
+	- "git diff" will compare the file in the working directory and the staging area
+	- "git diff --staged"will compare the files in the staging area against the repository
+	- "git reset --hard" will delete any changes in the working and staging dirs.
+	
+Branches : play with experimental features
+    - Master branch : the main branch
+	- "git branch" - get and view branch names.  The branch with a "*" beside it is the current branch
+	- "git branch {brach_name}" - created a branch with that name
+	- "git checkout {brach_name}" - Checkout the branch_name for working on 
+	- "git checkout -b {branch_name}" = git branch {brach_name} ; git checkout {brach_name}
+	- "git merge {branch2} {branch3}" - assuming you have branch1 checked out, this will merge branch2 and branch3 into branch1
+	- "git show {commit ID} - shows the diffs between a commit and it's parent
+	- "git branch -d {branch_name}" will delete a branch
+	When merging, you can get 
+	    Auto-merging {filename}
+		CONFLICT (content): Merge conflict in game.js
+		Automatic merge failed; fix conflicts and then commit the results
+	
+https://pdfeb.com/download/file2/go.php?q=Assembly+Language+Safari+on+the+I.+B.+M.+Personal+Computer%3A+First+Explorations-John+Socha&a=pdf&i=https%3A%2F%2FPDFeb.com%2Fuploads%2Fimages%2FoNArhH8gjGghF5hnjjgF6goWncJ1J1yj3DMVAM5PhZqLZh8yERhH8gjGghF5hnjjgF9PelLzBkoOYJ8KpuWEqNT96Pw8FbXrk5jjLwxPKohnJrpcHWok2rZQ1Q33OgadL1btyYurwMIXOaN8IJ1gsFQKabbR825y3VfxJ0dqTbnKA5fyT8DPULSYgWzW8Qiigut6JMLkBHWUtuBl5Z9Mj0eiKiPXUKhHHj93Esx9ANajhH8gjGghF5hnjjgFBQ%3D.jpg&s=1837+kb
+https://www.amazon.com/Assembly-Language-Safari-Personal-Computer/product-reviews/0893033219/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews
+https://www.google.com/search?q=ryuji+suzuki&rlz=1C1GGRV_enUS755US759&oq=Ryuji+Suzuki&aqs=chrome.0.0j69i60l2j0l3.1710j0j4&sourceid=chrome&ie=UTF-8	
+Habitat for Humanity ReStore
+
+Accepts: 
+Home improvement items including: Appliances, Furniture, Antiques, Doors, Windows, Tile and Lighting Fixtures.
+
+Drop off locations:
+
+Metro Maryland
+
+1029 E Gude Dr., Rockville, MD 20850
+
+(301) 947-3304
+
+8380 Colesville Rd., Silver Spring, MD 20910 (301) 990-0014
+
+Northern VA
+
+869 South Pickett Street, Alexandria, VA 22304
+
+(703) 360-6700
+
+4311 Walney Road, Chantilly, VA 20151 (703) 953-3747
+
+
+You can schedule a donation pickup with Habitat for Humanity of Northern Virginia by:
+Phone:	(703) 360-6700
+
+https://excessaccess.org/
+http://www.donationtown.org/
+
+
+ 
