@@ -31,3 +31,6 @@ could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
 
     Storing all my play projects
+
+
+https://github.com/cbuckey-uda/reflections/blob/master/lesson_1_reflections.txt
