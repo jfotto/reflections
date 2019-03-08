@@ -3,9 +3,11 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+     - The staging area is where files go before getting committed.  The working directiroy is where you are actively working on your code
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+     - You can group all your logical changes to the staging area and then commit
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -17,3 +19,6 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+
+https://github.com/cbuckey-uda/reflections/blob/master/lesson_2_reflections.txt
